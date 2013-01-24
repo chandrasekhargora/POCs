@@ -1,0 +1,5 @@
+GET_Companies_Positive,/v1/companies,e23e9e598412a54d52c8545accaeec25,GET,application/json,application/json,200,ETag
+GET_Companies_WithOut_AccessToken,/v1/companies,abc,GET,application/json,application/json,401,Fault
+GET_Companies_Invalid_AcceptType,/v1/companies,e23e9e598412a54d52c8545accaeec25,GET,application/xyz,application/json,415,ETag
+GET_Companies_Invalid_ContentType,/v1/companies,e23e9e598412a54d52c8545accaeec25,GET,application/xyz,application/xyz,415,ETag
+GET_Companies_Invalid_Verb,/v1/companies,e23e9e598412a54d52c8545accaeec25,POST,application/json,application/json,415,ETag

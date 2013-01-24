@@ -1,0 +1,4 @@
+SendSMS_acceptJson_contentTypeFormEncoded,application/json,application/x-www-form-urlencoded,tel:${g_WirelessNumber},Hellow orld1,201,"ResourceReference":
+SendSMS_acceptXml_contentTypeJson,application/xml,application/json,tel:${g_WirelessNumber},Hellow orld2,201,<ResourceReference>
+SendSMS_acceptJson_contentXml,application/json,application/xml,tel:${g_WirelessNumber}junk${g_WirelessNumber}world,Hellow orld3,201,"ResourceReference":
+SendSMSXMLInXMLOutTwelveDigit,application/xml,application/xml,tel:${g_WirelessNumber}-tel:${g_WirelessNumber},Hellow orld4,201,<ResourceReference>
